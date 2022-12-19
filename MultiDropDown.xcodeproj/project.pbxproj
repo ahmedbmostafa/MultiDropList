@@ -47,13 +47,20 @@
 		A7B0129E294EB83A006C230F /* BetCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7B0129C294EB83A006C230F /* BetCollectionViewCell.xib */; };
 		A7B012A1294EB849006C230F /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B0129F294EB849006C230F /* ProductCollectionViewCell.swift */; };
 		A7B012A2294EB849006C230F /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7B012A0294EB849006C230F /* ProductCollectionViewCell.xib */; };
+		A7D275242950F917002BE37A /* MockCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D275232950F917002BE37A /* MockCategoryVC.swift */; };
+		A7D275262950F96F002BE37A /* MockCategoryDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D275252950F96F002BE37A /* MockCategoryDataProvider.swift */; };
+		A7D275282950F9AE002BE37A /* CategoryViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D275272950F9AE002BE37A /* CategoryViewModelTests.swift */; };
+		A7D9E59B29506E9C00E29B38 /* CategoryBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D9E59A29506E9C00E29B38 /* CategoryBuilderTests.swift */; };
+		A7D9E59D29506F4600E29B38 /* CategoryVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D9E59C29506F4600E29B38 /* CategoryVCTests.swift */; };
+		A7D9E5A029506FC000E29B38 /* MockCategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D9E59F29506FC000E29B38 /* MockCategoryViewModel.swift */; };
+		A7D9E5A52950703300E29B38 /* CategoryStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D9E5A42950703300E29B38 /* CategoryStub.swift */; };
+		A7D9E5A72950704300E29B38 /* PropertyStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D9E5A62950704300E29B38 /* PropertyStub.swift */; };
 		A7F6D979294D246100F94A4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F6D978294D246100F94A4E /* AppDelegate.swift */; };
 		A7F6D97B294D246100F94A4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F6D97A294D246100F94A4E /* SceneDelegate.swift */; };
 		A7F6D97D294D246100F94A4E /* CategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F6D97C294D246100F94A4E /* CategoryVC.swift */; };
 		A7F6D980294D246100F94A4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F6D97E294D246100F94A4E /* Main.storyboard */; };
 		A7F6D982294D246300F94A4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F6D981294D246300F94A4E /* Assets.xcassets */; };
 		A7F6D985294D246300F94A4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F6D983294D246300F94A4E /* LaunchScreen.storyboard */; };
-		A7F6D990294D246300F94A4E /* MultiDropDownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F6D98F294D246300F94A4E /* MultiDropDownTests.swift */; };
 		A7F6D99A294D246300F94A4E /* MultiDropDownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F6D999294D246300F94A4E /* MultiDropDownUITests.swift */; };
 		A7F6D99C294D246300F94A4E /* MultiDropDownUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F6D99B294D246300F94A4E /* MultiDropDownUITestsLaunchTests.swift */; };
 		A7F6D9AA294D2C1200F94A4E /* SwiftyMenu in Frameworks */ = {isa = PBXBuildFile; productRef = A7F6D9A9294D2C1200F94A4E /* SwiftyMenu */; };
@@ -114,6 +121,14 @@
 		A7B0129C294EB83A006C230F /* BetCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BetCollectionViewCell.xib; sourceTree = "<group>"; };
 		A7B0129F294EB849006C230F /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
 		A7B012A0294EB849006C230F /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		A7D275232950F917002BE37A /* MockCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCategoryVC.swift; sourceTree = "<group>"; };
+		A7D275252950F96F002BE37A /* MockCategoryDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCategoryDataProvider.swift; sourceTree = "<group>"; };
+		A7D275272950F9AE002BE37A /* CategoryViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModelTests.swift; sourceTree = "<group>"; };
+		A7D9E59A29506E9C00E29B38 /* CategoryBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryBuilderTests.swift; sourceTree = "<group>"; };
+		A7D9E59C29506F4600E29B38 /* CategoryVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryVCTests.swift; sourceTree = "<group>"; };
+		A7D9E59F29506FC000E29B38 /* MockCategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCategoryViewModel.swift; sourceTree = "<group>"; };
+		A7D9E5A42950703300E29B38 /* CategoryStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryStub.swift; sourceTree = "<group>"; };
+		A7D9E5A62950704300E29B38 /* PropertyStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyStub.swift; sourceTree = "<group>"; };
 		A7F6D975294D246000F94A4E /* MultiDropDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiDropDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F6D978294D246100F94A4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7F6D97A294D246100F94A4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,7 +138,6 @@
 		A7F6D984294D246300F94A4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7F6D986294D246300F94A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7F6D98B294D246300F94A4E /* MultiDropDownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiDropDownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7F6D98F294D246300F94A4E /* MultiDropDownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDropDownTests.swift; sourceTree = "<group>"; };
 		A7F6D995294D246300F94A4E /* MultiDropDownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiDropDownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F6D999294D246300F94A4E /* MultiDropDownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDropDownUITests.swift; sourceTree = "<group>"; };
 		A7F6D99B294D246300F94A4E /* MultiDropDownUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDropDownUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -365,6 +379,68 @@
 			path = Nibs;
 			sourceTree = "<group>";
 		};
+		A7D275222950F8FF002BE37A /* MockClasses */ = {
+			isa = PBXGroup;
+			children = (
+				A7D275232950F917002BE37A /* MockCategoryVC.swift */,
+				A7D275252950F96F002BE37A /* MockCategoryDataProvider.swift */,
+			);
+			path = MockClasses;
+			sourceTree = "<group>";
+		};
+		A7D9E59629506E4200E29B38 /* CategoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7D9E59729506E5200E29B38 /* BuilderTests */,
+				A7D9E59829506E5B00E29B38 /* ViewTests */,
+				A7D9E59929506E6500E29B38 /* ViewModelTests */,
+			);
+			path = CategoryTests;
+			sourceTree = "<group>";
+		};
+		A7D9E59729506E5200E29B38 /* BuilderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7D9E59A29506E9C00E29B38 /* CategoryBuilderTests.swift */,
+			);
+			path = BuilderTests;
+			sourceTree = "<group>";
+		};
+		A7D9E59829506E5B00E29B38 /* ViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7D9E59E29506F5300E29B38 /* MockClasses */,
+				A7D9E59C29506F4600E29B38 /* CategoryVCTests.swift */,
+			);
+			path = ViewTests;
+			sourceTree = "<group>";
+		};
+		A7D9E59929506E6500E29B38 /* ViewModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7D275222950F8FF002BE37A /* MockClasses */,
+				A7D275272950F9AE002BE37A /* CategoryViewModelTests.swift */,
+			);
+			path = ViewModelTests;
+			sourceTree = "<group>";
+		};
+		A7D9E59E29506F5300E29B38 /* MockClasses */ = {
+			isa = PBXGroup;
+			children = (
+				A7D9E59F29506FC000E29B38 /* MockCategoryViewModel.swift */,
+			);
+			path = MockClasses;
+			sourceTree = "<group>";
+		};
+		A7D9E5A32950700A00E29B38 /* Stub */ = {
+			isa = PBXGroup;
+			children = (
+				A7D9E5A42950703300E29B38 /* CategoryStub.swift */,
+				A7D9E5A62950704300E29B38 /* PropertyStub.swift */,
+			);
+			path = Stub;
+			sourceTree = "<group>";
+		};
 		A7F6D96C294D246000F94A4E = {
 			isa = PBXGroup;
 			children = (
@@ -400,7 +476,8 @@
 		A7F6D98E294D246300F94A4E /* MultiDropDownTests */ = {
 			isa = PBXGroup;
 			children = (
-				A7F6D98F294D246300F94A4E /* MultiDropDownTests.swift */,
+				A7D9E59629506E4200E29B38 /* CategoryTests */,
+				A7D9E5A32950700A00E29B38 /* Stub */,
 			);
 			path = MultiDropDownTests;
 			sourceTree = "<group>";
@@ -604,7 +681,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7F6D990294D246300F94A4E /* MultiDropDownTests.swift in Sources */,
+				A7D9E5A72950704300E29B38 /* PropertyStub.swift in Sources */,
+				A7D275262950F96F002BE37A /* MockCategoryDataProvider.swift in Sources */,
+				A7D9E59D29506F4600E29B38 /* CategoryVCTests.swift in Sources */,
+				A7D275242950F917002BE37A /* MockCategoryVC.swift in Sources */,
+				A7D275282950F9AE002BE37A /* CategoryViewModelTests.swift in Sources */,
+				A7D9E5A029506FC000E29B38 /* MockCategoryViewModel.swift in Sources */,
+				A7D9E5A52950703300E29B38 /* CategoryStub.swift in Sources */,
+				A7D9E59B29506E9C00E29B38 /* CategoryBuilderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

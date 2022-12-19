@@ -12,7 +12,7 @@ typealias CategoryViewModelOutput = (CategoryViewModel.Output) -> ()
 
 protocol CategoryViewModelProtocol {
     var dataProvider: CategoryDataProviderProtocol! {get}
-    var categoryDataSourceViewModels: [CategoryCellViewModel] {get}
+    var categoryDataSourceViewModels: [CategoryCellViewModel]! {get}
     var output: CategoryViewModelOutput? { get set }
     func getCategoryCellViewModel(index : Int) -> CategoryCellViewModel
     func getCategoryList() -> [DropListModel]
@@ -42,7 +42,7 @@ class CategoryViewModel: CategoryViewModelProtocol{
         }
     }
     
-    var categoryDataSourceViewModels: [CategoryCellViewModel] {
+    var categoryDataSourceViewModels: [CategoryCellViewModel]!{
         return categoryViewModels
     }
     
